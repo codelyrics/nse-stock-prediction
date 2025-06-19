@@ -1482,6 +1482,11 @@ def benchmark(
         )
 
 
+def main():
+    """Main entry point for the training script."""
+    app()
+
+
 if __name__ == "__main__":
     # Setup logging
     logger.add(
